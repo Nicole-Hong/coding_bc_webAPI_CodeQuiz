@@ -15,5 +15,3 @@ This project involved building a timed multiple choice quiz with JavaScript util
 ![High Scores](https://raw.github.com/rwaynewhite15/rwhite-challenge-4/main/assets/HighScores.png)
 
 [Go to Application](https://rwaynewhite15.github.io/rwhite-challenge-4/)
-
-Bobby White
