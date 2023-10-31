@@ -29,4 +29,15 @@ The objective of this module challenge is to create an interactive program that 
 4. Respond to the quiz questions by clicking on an option.
 ![quiz](https://github.com/Nicole-Hong/coding_bc_webAPI_CodeQuiz/blob/main/images/Quiz.png)
 
-5. 
+5. Once the coding quiz is done, type in the initial of a player and click "Submit".
+![initials](https://github.com/Nicole-Hong/coding_bc_webAPI_CodeQuiz/blob/main/images/Initials.png)
+
+6. To view the record of scores of all the players, click "View Scores".
+![scores](https://github.com/Nicole-Hong/coding_bc_webAPI_CodeQuiz/blob/main/images/Scores.png)
+
+
+## Reference
+
+* Bootstrap: https://getbootstrap.com/docs/5.1/getting-started/introduction/
+* Google Fonts: https://fonts.google.com/ 
+
