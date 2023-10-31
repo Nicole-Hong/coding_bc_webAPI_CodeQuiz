@@ -1,17 +1,23 @@
-# 04 Web APIs: Code Quiz
+# Javascript Challenge: Web API Coding Quiz Game!
 
-This project involved building a timed multiple choice quiz with JavaScript utilizing the Document Object Model, or DOM. It also involved setting data into Local Storage and retrieving it to display high scores from past attempts at the quiz.
+## About This Challenge
 
-## Application Screenshot
+The objective of this module challenge is to create an interactive program that tests the coding knowledge in multiple choice questions, stores the quiz scores in Local Storage, and retrieves and displays them to users on a web browser. The program involves JavaScript that utilizes the Document Object Model (DOM), the data storage into and retrieval from Local Storage and Bootstrap.
 
-![Start Page](https://raw.github.com/rwaynewhite15/rwhite-challenge-4/main/assets/Start.png)
 
-![Rules](https://raw.github.com/rwaynewhite15/rwhite-challenge-4/main/assets/Rules.png)
+## Built With
 
-![Question](https://raw.github.com/rwaynewhite15/rwhite-challenge-4/main/assets/Question.png)
+* HTML
+* CSS
+* Javascript
 
-![Finish](https://raw.github.com/rwaynewhite15/rwhite-challenge-4/main/assets/Finish.png)
 
-![High Scores](https://raw.github.com/rwaynewhite15/rwhite-challenge-4/main/assets/HighScores.png)
+## Website Deployed
 
-[Go to Application](https://rwaynewhite15.github.io/rwhite-challenge-4/)
+* Random Password Generator URL: https://nicole-hong.github.io/coding_bc_javascript_password_generator/ 
+
+
+## Application Usage
+
+1. Open the Web API Coding Quiz Game URL provided above.
+2. Read the Rules of the Coding Quiz,

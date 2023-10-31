@@ -13,6 +13,7 @@ existing = existing ? existing.split(',') : [];
 var queCount = 0;
 var counter = 60;
 var score = 0;
+var initials = "";
 
 //If Continue Button Clicked
 continueBtn.onclick = ()=>{
@@ -45,11 +46,11 @@ function showQuestions(index){
     }
     const queText = document.querySelector(".que-text");
     const optionList = document.querySelector("#choices");
-    let queTag = "<span>"+ questions[index].numb + ". "+ questions[index].question +"</span>";
-    let optionTag = '<div class="option">'+ questions[index].options[0] + '<span></span></div>'
-                    + '<div class="option">'+ questions[index].options[1] + '<span></span></div>'
-                    + '<div class="option">'+ questions[index].options[2] + '<span></span></div>'
-                    + '<div class="option">'+ questions[index].options[3] + '<span></span></div>'
+    let queTag = "<span>"+ quiz[index].quizNumb + ". "+ quiz[index].question +"</span>";
+    let optionTag = '<div class="option">'+ quiz[index].options[0] + '<span></span></div>'
+                    + '<div class="option">'+ quiz[index].options[1] + '<span></span></div>'
+                    + '<div class="option">'+ quiz[index].options[2] + '<span></span></div>'
+                    + '<div class="option">'+ quiz[index].options[3] + '<span></span></div>'
     queText.innerHTML = queTag;
     optionList.innerHTML = optionTag;
     const option = optionList.querySelectorAll(".option");
@@ -64,7 +65,7 @@ function optionSelected(answer){
         return;
     }
     let userAns = answer.textContent;
-    let correctAns = questions[queCount].answer;
+    let correctAns = quiz[queCount].answer;
     if(userAns == correctAns){
         console.log("Answer is Correct");
         const response = document.querySelector("#response");
@@ -77,7 +78,7 @@ function optionSelected(answer){
         const response = document.querySelector("#response");
         response.innerHTML = '<div id="response"><span>Wrong!</span></div>';
         setTimeout(nextQuestion, 500)
-        counter -= 5
+        counter -= 3
     }
 }
 function nextQuestion(){
@@ -102,6 +103,7 @@ function quizEnd(){
 //Submit Initials
 submitBtn.onclick = () => {
     let initials = initialsText.value;
+    //let initials = "";
     //Store Initials and Score in Local Storage
     var resultsDataObj = {
         initials: initials,
